@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drawings, Akhilesh Kola</title>
+  <meta name="description" content="Shop drawings and 3D CAD models by project and production designer Akhilesh Kola.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..800;1,62..125,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-show="drawing model">
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Akhilesh Kola</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html">Profile</a>
+        <a href="drawings.html" aria-current="page">Drawings</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="work" class="first" aria-labelledby="work-title">
+      <div class="wrap">
+        <h1 id="work-title" class="page-title">Drawings</h1>
+        <p class="lede">Shop drawings and 3D models from my own production packages: the part of the job
+          that turns a design into something a shop can cut, assemble and install. Each project lists the
+          software it was drawn in. Title blocks are removed to keep client details private.</p>
+        <div class="filters" role="group" aria-label="Filter by software" id="software-filter"></div>
+        <div id="projects" class="projects"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <h2 id="contact-title">Let’s build something</h2>
+        <p class="lede">Hiring a designer or detailer, or need shop drawings and CNC programs for a project?
+          Download my resume or reach me on LinkedIn.</p>
+        <div class="actions">
+          <a class="btn" href="resume/Akhilesh-Kola-Resume.pdf" download>Download resume (PDF)</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/akhilesh-kola-b9832991" target="_blank" rel="noopener">LinkedIn profile</a>
+          <a class="btn ghost" href="mailto:akhil7232tinku@gmail.com">Email me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button type="button" id="lightbox-close">Close</button>
+    <figure>
+      <img id="lightbox-img" alt="">
+      <p id="lightbox-caption"></p>
+    </figure>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">Akhilesh Kola, Ontario, Canada</div>
+  </footer>
+
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
