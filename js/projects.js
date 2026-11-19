@@ -9,30 +9,27 @@
 // category: "Architectural Millwork" | "Trade Show Booths" | "Stages & Scenic" | "Retail Fixtures"
 window.PROJECTS = [
   {
-    id: "tech-campus",
-    title: "Tech Campus Collaboration Booths",
+    id: "feature-cube-wall",
+    title: "Illuminated Cube Feature Wall",
     category: "Architectural Millwork",
-    year: 2024,
-    role: "Project design & detailing",
-    scope: "Eight curved, multi-level collaboration booths across six office floors",
-    software: ["SolidWorks", "Microvellum", "SWOOD"],
+    year: 2022,
+    role: "Detailing & CNC programming",
+    scope: "Two-storey staggered cube wall with concealed LED lighting and planters",
+    software: ["Microvellum", "AutoCAD"],
     summary:
-      "Sweeping U-shaped booths with built-in cubbies, terrazzo table tops and fluted wood " +
-      "cladding, split into curved modules that travel through a working office tower and " +
-      "lock together on site.",
+      "A floor-to-ceiling wall of offset back-lit cubes with planter pockets and a flush " +
+      "storage base, built as modular boxes so it could be lifted into place and aligned fast.",
     images: [
-      { src: "img/campus-booth-1.jpg", alt: "Curved wood collaboration booth with fluted cladding in a sunlit office", kind: "photo" },
-      { src: "img/campus-booth-2.jpg", alt: "Two-tier oval booth with vertical wood slat cladding", kind: "photo" },
-      { src: "img/campus-booth-3.jpg", alt: "U-shaped booth with cubby shelving and pedestal tables", kind: "photo" },
+      { src: "img/feature-cube-wall.jpg", alt: "Wall of staggered white back-lit cubes with trailing plants", kind: "photo" },
     ],
   },
   {
     id: "experience-centre",
     title: "Branch Experience Centre",
-    category: "Architectural Millwork",
+    category: "Retail Fixtures",
     year: 2022,
     role: "Detailing & CNC programming",
-    scope: "Lattice ceiling, curved immersive pod, feature counters and wall surrounds",
+    scope: "Lattice ceiling, curved immersive pod, oak counters and framed display walls",
     software: ["SolidWorks", "SWOOD", "AutoCAD"],
     summary:
       "A woven wood lattice ceiling that flows down the walls, a curved immersive projection " +
@@ -40,9 +37,67 @@ window.PROJECTS = [
     images: [
       { src: "img/experience-pod-2.jpg", alt: "Curved oak immersive pod glowing with projected stars under a lattice ceiling", kind: "photo" },
       { src: "img/experience-lattice.jpg", alt: "Woven wood lattice ceiling over a curved pod and oak counter", kind: "photo" },
-      { src: "img/experience-pod.jpg", alt: "Curved wood immersive pod framed by lattice wall supports", kind: "photo" },
-      { src: "img/experience-vr-wall.jpg", alt: "Lattice ceiling flowing into a framed moss wall around an LED screen", kind: "photo" },
       { src: "img/experience-mars-wall.jpg", alt: "Framed moss wall surrounding a wide LED screen with a VR station", kind: "photo" },
+    ],
+  },
+  {
+    id: "reaction-wall",
+    title: "Interactive Reaction-Game Wall",
+    category: "Experiential",
+    year: 2023,
+    role: "Detailing & CNC programming",
+    scope: "Freestanding brand-activation game with a bent-tube steel frame and light-up targets",
+    software: ["SolidWorks", "SWOOD"],
+    summary:
+      "A freestanding reaction-time game for a brand activation: bent and welded tube frame, " +
+      "routed face panel and embedded light-up targets, designed to tour between events.",
+    images: [
+      { src: "img/reaction-wall.jpg", alt: "Freestanding game wall with a gold tube frame and round light-up targets", kind: "photo" },
+    ],
+  },
+  {
+    id: "holiday-arcade",
+    title: "Holiday Photo Experience",
+    category: "Experiential",
+    year: 2023,
+    role: "Detailing & CNC programming",
+    scope: "Nested arch arcade, illuminated star and counters for a seasonal installation",
+    software: ["SolidWorks", "SWOOD"],
+    summary:
+      "A tunnel of nested printed arches leading to a photo set, crowned with a lit star — " +
+      "designed to install overnight in a busy public concourse.",
+    images: [
+      { src: "img/holiday-arcade.jpg", alt: "Tunnel of decorative arches on a red carpet under an illuminated star", kind: "photo" },
+    ],
+  },
+  {
+    id: "luxury-popup",
+    title: "Luxury Pop-up Booth",
+    category: "Trade Show Booths",
+    year: 2023,
+    role: "Detailing & CNC programming",
+    scope: "Stone-finish portal booth with lit shelving and an oak cash desk",
+    software: ["SolidWorks", "Microvellum"],
+    summary:
+      "A freestanding stone-finish portal with back-lit oak shelving, steel display frames and " +
+      "a solid oak desk, built in sections to go up overnight on a live retail floor.",
+    images: [
+      { src: "img/luxury-popup.jpg", alt: "Stone-finish pop-up booth with lit oak shelves and an oak desk", kind: "photo" },
+    ],
+  },
+  {
+    id: "window-display",
+    title: "Concentric Ring Window Display",
+    category: "Retail Fixtures",
+    year: 2022,
+    role: "Detailing & CNC programming",
+    scope: "Layered ring portal with an illuminated globe for a flagship store window",
+    software: ["SolidWorks", "SWOOD"],
+    summary:
+      "Nested CNC-cut rings stepping back into a lit globe, with planted vines spiralling " +
+      "through the layers to pull people toward the window.",
+    images: [
+      { src: "img/window-display.jpg", alt: "Store window with concentric green rings framing an illuminated globe", kind: "photo" },
     ],
   },
   {
